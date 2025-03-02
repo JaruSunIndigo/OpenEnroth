@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">OpenEnroth<span id="projectnumber">&#160;a5712df</span>
+   <div id="projectname">OpenEnroth<span id="projectnumber">&#160;49445b5</span>
    </div>
   </td>
  </tr>
@@ -100,8 +100,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a02656b26c075f80ca8f3c2285b3a2f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5811ff5073d6d197ba27a2ab73539f49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a5811ff5073d6d197ba27a2ab73539f49">SetRandomGoldIfTheresNoItem</a> ()</td></tr>
 <tr class="separator:a5811ff5073d6d197ba27a2ab73539f49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77ae756013f17fc041403c5a03e67e56"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a77ae756013f17fc041403c5a03e67e56">CanAct</a> ()</td></tr>
-<tr class="separator:a77ae756013f17fc041403c5a03e67e56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a683955d8696ef8716878f8f1368bd4ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a683955d8696ef8716878f8f1368bd4ac">CanAct</a> () const</td></tr>
+<tr class="separator:a683955d8696ef8716878f8f1368bd4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fa5723dae12c3ba3d1cfdcc2832ce8e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a0fa5723dae12c3ba3d1cfdcc2832ce8e">IsNotAlive</a> ()</td></tr>
 <tr class="separator:a0fa5723dae12c3ba3d1cfdcc2832ce8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae652380272c68abe2af75d71c2306daf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#ae652380272c68abe2af75d71c2306daf">IsPeasant</a> ()</td></tr>
@@ -149,56 +149,58 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ae68fd9faf29b645a7664aabc93dd3076"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#ae68fd9faf29b645a7664aabc93dd3076">_SelectTarget</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> *OutTargetPID, bool can_target_party)</td></tr>
 <tr class="separator:ae68fd9faf29b645a7664aabc93dd3076"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64e4c242335896c8c6f47baa8b1085f2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a64e4c242335896c8c6f47baa8b1085f2">AI_Pursue3</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> a2, <a class="el" href="classDuration.html">Duration</a> uActionLength, struct <a class="el" href="structAIDirection.html">AIDirection</a> *a4)</td></tr>
-<tr class="separator:a64e4c242335896c8c6f47baa8b1085f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38efdbd37026ae6ed2f166a9f4f9f307"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a38efdbd37026ae6ed2f166a9f4f9f307">AI_Pursue2</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> a2, <a class="el" href="classDuration.html">Duration</a> uActionLength, struct <a class="el" href="structAIDirection.html">AIDirection</a> *pDir, int a5)</td></tr>
-<tr class="separator:a38efdbd37026ae6ed2f166a9f4f9f307"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a341d5709cd2491afeecbad4b5369ad54"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a341d5709cd2491afeecbad4b5369ad54">AI_Flee</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> edx0, <a class="el" href="classDuration.html">Duration</a> uActionLength, struct <a class="el" href="structAIDirection.html">AIDirection</a> *a4)</td></tr>
-<tr class="separator:a341d5709cd2491afeecbad4b5369ad54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a926a04ef0e649329d2670c57bd189a4e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a926a04ef0e649329d2670c57bd189a4e">AI_Pursue1</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> a2, signed int arg0, <a class="el" href="classDuration.html">Duration</a> uActionLength, struct <a class="el" href="structAIDirection.html">AIDirection</a> *pDir)</td></tr>
-<tr class="separator:a926a04ef0e649329d2670c57bd189a4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a715a59466c4a63883a6a5043d81c6e0a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a715a59466c4a63883a6a5043d81c6e0a">AI_Pursue3</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> a2, <a class="el" href="classDuration.html">Duration</a> uActionLength, <a class="el" href="structAIDirection.html">AIDirection</a> *a4)</td></tr>
+<tr class="separator:a715a59466c4a63883a6a5043d81c6e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ffb28804e07439ecf0a02ce8abacdcb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a1ffb28804e07439ecf0a02ce8abacdcb">AI_Pursue2</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> a2, <a class="el" href="classDuration.html">Duration</a> uActionLength, <a class="el" href="structAIDirection.html">AIDirection</a> *pDir, int a5)</td></tr>
+<tr class="separator:a1ffb28804e07439ecf0a02ce8abacdcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade6f88e2f231c9ffd275bd710e3d62d8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#ade6f88e2f231c9ffd275bd710e3d62d8">AI_Flee</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> edx0, <a class="el" href="classDuration.html">Duration</a> uActionLength, <a class="el" href="structAIDirection.html">AIDirection</a> *a4)</td></tr>
+<tr class="separator:ade6f88e2f231c9ffd275bd710e3d62d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0a422a41a0110dfd9a9c208a857be9a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#ae0a422a41a0110dfd9a9c208a857be9a">AI_Pursue1</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> a2, signed int arg0, <a class="el" href="classDuration.html">Duration</a> uActionLength, <a class="el" href="structAIDirection.html">AIDirection</a> *pDir)</td></tr>
+<tr class="separator:ae0a422a41a0110dfd9a9c208a857be9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb8e24f80952c7aaea4d60f9c6a70f79"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#aeb8e24f80952c7aaea4d60f9c6a70f79">playSound</a> (unsigned int uActorID, <a class="el" href="ActorEnums_8h.html#a2299a5317842057b8728a0695c9118d7">ActorSound</a> uSoundID)</td></tr>
 <tr class="separator:aeb8e24f80952c7aaea4d60f9c6a70f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a447dcfe201137f104ad0778124f80787"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a447dcfe201137f104ad0778124f80787">Die</a> (unsigned int uActorID)</td></tr>
 <tr class="separator:a447dcfe201137f104ad0778124f80787"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19dc217219d46ec0d1563de450045a7a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a19dc217219d46ec0d1563de450045a7a">resurrect</a> (unsigned int uActorID)</td></tr>
 <tr class="separator:a19dc217219d46ec0d1563de450045a7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40832748bc74ddaa4a237813930b4a9c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a40832748bc74ddaa4a237813930b4a9c">AI_Bored</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> uObjID, struct <a class="el" href="structAIDirection.html">AIDirection</a> *a4)</td></tr>
-<tr class="separator:a40832748bc74ddaa4a237813930b4a9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e1043c7a9cb32c469a822d062d1dccc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a3e1043c7a9cb32c469a822d062d1dccc">AI_Bored</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> uObjID, <a class="el" href="structAIDirection.html">AIDirection</a> *a4)</td></tr>
+<tr class="separator:a3e1043c7a9cb32c469a822d062d1dccc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1258f61e8ccce4fb333f468d8eed56c2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a1258f61e8ccce4fb333f468d8eed56c2">AI_Stun</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> edx0, int arg0)</td></tr>
 <tr class="separator:a1258f61e8ccce4fb333f468d8eed56c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a848b69de6c4e3f7917ad4902a002d7f0"><td class="memItemLeft" align="right" valign="top">static char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a848b69de6c4e3f7917ad4902a002d7f0">_4031C1_update_job_never_gets_called</a> (unsigned int uActorID, signed int a2, int a3)</td></tr>
 <tr class="separator:a848b69de6c4e3f7917ad4902a002d7f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cdc6acb6add31d905fa3b4dc537e310"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a4cdc6acb6add31d905fa3b4dc537e310">AI_RandomMove</a> (unsigned int uActor_id, <a class="el" href="classPid.html">Pid</a> uTarget_id, int <a class="el" href="classActor.html#a0abf489a40d22722f74fe39cf0c426e2">radius</a>, <a class="el" href="classDuration.html">Duration</a> uActionLength)</td></tr>
 <tr class="separator:a4cdc6acb6add31d905fa3b4dc537e310"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac86a0687a6d57758c6f8cea275192dce"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#ac86a0687a6d57758c6f8cea275192dce">AI_MissileAttack1</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> sTargetPid, struct <a class="el" href="structAIDirection.html">AIDirection</a> *pDir)</td></tr>
-<tr class="separator:ac86a0687a6d57758c6f8cea275192dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a892835c91c3160a15309c5af2c9dcefb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a892835c91c3160a15309c5af2c9dcefb">AI_MissileAttack2</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> sTargetPid, struct <a class="el" href="structAIDirection.html">AIDirection</a> *pDir)</td></tr>
-<tr class="separator:a892835c91c3160a15309c5af2c9dcefb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac857b8337db0350ba9de58d7ca9429f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#aac857b8337db0350ba9de58d7ca9429f">AI_SpellAttack1</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> sTargetPid, struct <a class="el" href="structAIDirection.html">AIDirection</a> *pDir)</td></tr>
-<tr class="separator:aac857b8337db0350ba9de58d7ca9429f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8756b4b11a9f17271fb44273c5b87812"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a8756b4b11a9f17271fb44273c5b87812">AI_SpellAttack2</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> sTargetPid, struct <a class="el" href="structAIDirection.html">AIDirection</a> *pDir)</td></tr>
-<tr class="separator:a8756b4b11a9f17271fb44273c5b87812"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabfe5267433f5ac535ea0f587f5583ec"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#aabfe5267433f5ac535ea0f587f5583ec">AI_MeleeAttack</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> sTargetPid, struct <a class="el" href="structAIDirection.html">AIDirection</a> *arg0)</td></tr>
-<tr class="separator:aabfe5267433f5ac535ea0f587f5583ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19e310d765a0a7451f042e155bb735f0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a19e310d765a0a7451f042e155bb735f0">AI_MissileAttack1</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> sTargetPid, <a class="el" href="structAIDirection.html">AIDirection</a> *pDir)</td></tr>
+<tr class="separator:a19e310d765a0a7451f042e155bb735f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a204b6984465fc66e1d2367151c6ba167"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a204b6984465fc66e1d2367151c6ba167">AI_MissileAttack2</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> sTargetPid, <a class="el" href="structAIDirection.html">AIDirection</a> *pDir)</td></tr>
+<tr class="separator:a204b6984465fc66e1d2367151c6ba167"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14f9a982211e648e33fab1262ff109d1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a14f9a982211e648e33fab1262ff109d1">AI_SpellAttack1</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> sTargetPid, <a class="el" href="structAIDirection.html">AIDirection</a> *pDir)</td></tr>
+<tr class="separator:a14f9a982211e648e33fab1262ff109d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e95ca45f288046a7f7895eb2bacd690"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a1e95ca45f288046a7f7895eb2bacd690">AI_SpellAttack2</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> sTargetPid, <a class="el" href="structAIDirection.html">AIDirection</a> *pDir)</td></tr>
+<tr class="separator:a1e95ca45f288046a7f7895eb2bacd690"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfbae95af585219d35c6b6925febc329"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#adfbae95af585219d35c6b6925febc329">AI_MeleeAttack</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> sTargetPid, <a class="el" href="structAIDirection.html">AIDirection</a> *arg0)</td></tr>
+<tr class="separator:adfbae95af585219d35c6b6925febc329"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcdcd09bde265d5b55d08ad248f5c473"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#abcdcd09bde265d5b55d08ad248f5c473">StandAwhile</a> (unsigned int uActorID)</td></tr>
 <tr class="separator:abcdcd09bde265d5b55d08ad248f5c473"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57c81fbe96cff651c5011c08a07f2a50"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a57c81fbe96cff651c5011c08a07f2a50">AI_Stand</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> object_to_face_pid, <a class="el" href="classDuration.html">Duration</a> uActionLength, struct <a class="el" href="structAIDirection.html">AIDirection</a> *a4)</td></tr>
-<tr class="separator:a57c81fbe96cff651c5011c08a07f2a50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79cc9d0589bc74c722ed9b75e3c7e421"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a79cc9d0589bc74c722ed9b75e3c7e421">AI_StandOrBored</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> uObjID, <a class="el" href="classDuration.html">Duration</a> uActionLength, struct <a class="el" href="structAIDirection.html">AIDirection</a> *a4)</td></tr>
-<tr class="separator:a79cc9d0589bc74c722ed9b75e3c7e421"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba3f8e539cba4c2895f4974ec7bbc552"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#aba3f8e539cba4c2895f4974ec7bbc552">AI_FaceObject</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> uObjID, struct <a class="el" href="structAIDirection.html">AIDirection</a> *Dir_In)</td></tr>
-<tr class="separator:aba3f8e539cba4c2895f4974ec7bbc552"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4483f034bdc08bff333d86d69f55c50a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a4483f034bdc08bff333d86d69f55c50a">GetDirectionInfo</a> (<a class="el" href="classPid.html">Pid</a> uObj1ID, <a class="el" href="classPid.html">Pid</a> uObj2ID, struct <a class="el" href="structAIDirection.html">AIDirection</a> *pOut, int a4)</td></tr>
-<tr class="separator:a4483f034bdc08bff333d86d69f55c50a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97a500b1132839d4c5db4872f946fb65"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a97a500b1132839d4c5db4872f946fb65">AI_Stand</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> object_to_face_pid, <a class="el" href="classDuration.html">Duration</a> uActionLength, <a class="el" href="structAIDirection.html">AIDirection</a> *a4)</td></tr>
+<tr class="separator:a97a500b1132839d4c5db4872f946fb65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d36eebbd2b8a9ed3df7d49bebe7b184"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a0d36eebbd2b8a9ed3df7d49bebe7b184">AI_StandOrBored</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> uObjID, <a class="el" href="classDuration.html">Duration</a> uActionLength, <a class="el" href="structAIDirection.html">AIDirection</a> *a4)</td></tr>
+<tr class="separator:a0d36eebbd2b8a9ed3df7d49bebe7b184"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf97bf0ca832347b58a3e8b7c16170d4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#adf97bf0ca832347b58a3e8b7c16170d4">AI_FaceObject</a> (unsigned int uActorID, <a class="el" href="classPid.html">Pid</a> uObjID, <a class="el" href="structAIDirection.html">AIDirection</a> *Dir_In)</td></tr>
+<tr class="separator:adf97bf0ca832347b58a3e8b7c16170d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af439291de72cb394a5470f7537bef795"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#af439291de72cb394a5470f7537bef795">GetDirectionInfo</a> (<a class="el" href="Vec_8h.html#a40b8356e33151c22cb4d1adaf2b762a8">Vec3f</a> p1, <a class="el" href="Vec_8h.html#a40b8356e33151c22cb4d1adaf2b762a8">Vec3f</a> p2, <a class="el" href="structAIDirection.html">AIDirection</a> *pOut)</td></tr>
+<tr class="separator:af439291de72cb394a5470f7537bef795"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7a7be5edaad5feffcd8048b33c1630d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#ae7a7be5edaad5feffcd8048b33c1630d">GetDirectionInfo</a> (<a class="el" href="classPid.html">Pid</a> uObj1ID, <a class="el" href="classPid.html">Pid</a> uObj2ID, <a class="el" href="structAIDirection.html">AIDirection</a> *pOut, int PreferedZ)</td></tr>
+<tr class="separator:ae7a7be5edaad5feffcd8048b33c1630d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa03a8044db9c631c68d58499d4f630d0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#aa03a8044db9c631c68d58499d4f630d0">Explode</a> (unsigned int uActorID)</td></tr>
 <tr class="separator:aa03a8044db9c631c68d58499d4f630d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b32a105de5897b41f0ed14546f9a351"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a7b32a105de5897b41f0ed14546f9a351">AI_RangedAttack</a> (unsigned int uActorID, struct <a class="el" href="structAIDirection.html">AIDirection</a> *a2, int type, <a class="el" href="ActorEnums_8h.html#adf8438223a48250b5b8f0f6dfa470a10">ActorAbility</a> a4)</td></tr>
-<tr class="separator:a7b32a105de5897b41f0ed14546f9a351"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadd6182ef15f5a3b8a7b428164abdfbd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#aadd6182ef15f5a3b8a7b428164abdfbd">AI_SpellAttack</a> (unsigned int uActorID, struct <a class="el" href="structAIDirection.html">AIDirection</a> *pDir, <a class="el" href="SpellEnums_8h.html#a44a2b004ec19c525f902f08cd7b7ef90">SpellId</a> uSpellID, <a class="el" href="ActorEnums_8h.html#adf8438223a48250b5b8f0f6dfa470a10">ActorAbility</a> a4, <a class="el" href="classCombinedSkillValue.html">CombinedSkillValue</a> uSkill)</td></tr>
-<tr class="separator:aadd6182ef15f5a3b8a7b428164abdfbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5709502698380ac4b322f9a204c92e3a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a5709502698380ac4b322f9a204c92e3a">ActorDamageFromMonster</a> (<a class="el" href="classPid.html">Pid</a> attacker_id, unsigned int actor_id, <a class="el" href="Vec_8h.html#adf6e1d7d066bb09da957cc89f2b3ceb2">Vec3i</a> *pVelocity, <a class="el" href="ActorEnums_8h.html#adf8438223a48250b5b8f0f6dfa470a10">ActorAbility</a> a4)</td></tr>
-<tr class="separator:a5709502698380ac4b322f9a204c92e3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49a4c8b81f20072276bc801180948908"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a49a4c8b81f20072276bc801180948908">AI_RangedAttack</a> (unsigned int uActorID, <a class="el" href="structAIDirection.html">AIDirection</a> *a2, int type, <a class="el" href="ActorEnums_8h.html#adf8438223a48250b5b8f0f6dfa470a10">ActorAbility</a> a4)</td></tr>
+<tr class="separator:a49a4c8b81f20072276bc801180948908"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f6337cd047523c5df2e1d71e5d894ba"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a1f6337cd047523c5df2e1d71e5d894ba">AI_SpellAttack</a> (unsigned int uActorID, <a class="el" href="structAIDirection.html">AIDirection</a> *pDir, <a class="el" href="SpellEnums_8h.html#a44a2b004ec19c525f902f08cd7b7ef90">SpellId</a> uSpellID, <a class="el" href="ActorEnums_8h.html#adf8438223a48250b5b8f0f6dfa470a10">ActorAbility</a> a4, <a class="el" href="classCombinedSkillValue.html">CombinedSkillValue</a> uSkill)</td></tr>
+<tr class="separator:a1f6337cd047523c5df2e1d71e5d894ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade310f548d4a8093ce217c9e784309f2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#ade310f548d4a8093ce217c9e784309f2">ActorDamageFromMonster</a> (<a class="el" href="classPid.html">Pid</a> attacker_id, unsigned int actor_id, const <a class="el" href="Vec_8h.html#a40b8356e33151c22cb4d1adaf2b762a8">Vec3f</a> &amp;pVelocity, <a class="el" href="ActorEnums_8h.html#adf8438223a48250b5b8f0f6dfa470a10">ActorAbility</a> a4)</td></tr>
+<tr class="separator:ade310f548d4a8093ce217c9e784309f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ee7d405ac5f625e922231b53d20c067"><td class="memItemLeft" align="right" valign="top">static unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a4ee7d405ac5f625e922231b53d20c067">GetObjDescId</a> (<a class="el" href="SpellEnums_8h.html#a44a2b004ec19c525f902f08cd7b7ef90">SpellId</a> spellId)</td></tr>
 <tr class="separator:a4ee7d405ac5f625e922231b53d20c067"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b98b9c5f358ad2addbd8293347ad8fe"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a7b98b9c5f358ad2addbd8293347ad8fe">AggroSurroundingPeasants</a> (unsigned int uActorID, int a2)</td></tr>
@@ -217,10 +219,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a448862b446b27675441e69cc79923c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3eb1a6cf099e9cdc4cb56b4f424b6884"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a3eb1a6cf099e9cdc4cb56b4f424b6884">AddOnDamageOverlay</a> (unsigned int uActorID, int overlayType, int damage)</td></tr>
 <tr class="separator:a3eb1a6cf099e9cdc4cb56b4f424b6884"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2dca98c10fc7fd33b4ab5e4c96a93f7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#ad2dca98c10fc7fd33b4ab5e4c96a93f7">Arena_summon_actor</a> (<a class="el" href="MonsterEnums_8h.html#a9c8dbe33f930c23cbaddd4e0afad01ba">MonsterId</a> monster_id, <a class="el" href="Vec_8h.html#adf6e1d7d066bb09da957cc89f2b3ceb2">Vec3i</a> <a class="el" href="classActor.html#aceb578ea48745ebac2f2317bce791b4a">pos</a>)</td></tr>
-<tr class="separator:ad2dca98c10fc7fd33b4ab5e4c96a93f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91d26f4a21f58aa752c31e6491f04c9d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a91d26f4a21f58aa752c31e6491f04c9d">DamageMonsterFromParty</a> (<a class="el" href="classPid.html">Pid</a> a1, unsigned int uActorID_Monster, <a class="el" href="Vec_8h.html#adf6e1d7d066bb09da957cc89f2b3ceb2">Vec3i</a> *pVelocity)</td></tr>
-<tr class="separator:a91d26f4a21f58aa752c31e6491f04c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9420cb371461754fbf823f20ee0809f0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a9420cb371461754fbf823f20ee0809f0">Arena_summon_actor</a> (<a class="el" href="MonsterEnums_8h.html#a9c8dbe33f930c23cbaddd4e0afad01ba">MonsterId</a> monster_id, <a class="el" href="Vec_8h.html#a40b8356e33151c22cb4d1adaf2b762a8">Vec3f</a> <a class="el" href="classActor.html#afa1455dbf1a4698584ed8c501439692f">pos</a>)</td></tr>
+<tr class="separator:a9420cb371461754fbf823f20ee0809f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a862a026ab9344b99235bcd399ee4b58b"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a862a026ab9344b99235bcd399ee4b58b">DamageMonsterFromParty</a> (<a class="el" href="classPid.html">Pid</a> a1, unsigned int uActorID_Monster, const <a class="el" href="Vec_8h.html#a40b8356e33151c22cb4d1adaf2b762a8">Vec3f</a> &amp;pVelocity)</td></tr>
+<tr class="separator:a862a026ab9344b99235bcd399ee4b58b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7d42998865157641cadc4a0e625811f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#ac7d42998865157641cadc4a0e625811f">MakeActorAIList_ODM</a> ()</td></tr>
 <tr class="separator:ac7d42998865157641cadc4a0e625811f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92f954d74a6318e3d32edb5cfcaf7382"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a92f954d74a6318e3d32edb5cfcaf7382">MakeActorAIList_BLV</a> ()</td></tr>
@@ -264,10 +266,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ac60a8e4f853ce501aa9ae9f22ea35aed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90428d855fa5995441bd690b47de4364"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a90428d855fa5995441bd690b47de4364">moveSpeed</a> = 200</td></tr>
 <tr class="separator:a90428d855fa5995441bd690b47de4364"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aceb578ea48745ebac2f2317bce791b4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Vec_8h.html#adf6e1d7d066bb09da957cc89f2b3ceb2">Vec3i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#aceb578ea48745ebac2f2317bce791b4a">pos</a></td></tr>
-<tr class="separator:aceb578ea48745ebac2f2317bce791b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66d4558bc52848e5bda1fa3911f84048"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Vec_8h.html#adf6e1d7d066bb09da957cc89f2b3ceb2">Vec3i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a66d4558bc52848e5bda1fa3911f84048">speed</a></td></tr>
-<tr class="separator:a66d4558bc52848e5bda1fa3911f84048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa1455dbf1a4698584ed8c501439692f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Vec_8h.html#a40b8356e33151c22cb4d1adaf2b762a8">Vec3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#afa1455dbf1a4698584ed8c501439692f">pos</a></td></tr>
+<tr class="separator:afa1455dbf1a4698584ed8c501439692f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb823b9528b91c1bc292f8729803785a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Vec_8h.html#a40b8356e33151c22cb4d1adaf2b762a8">Vec3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#abb823b9528b91c1bc292f8729803785a">velocity</a></td></tr>
+<tr class="separator:abb823b9528b91c1bc292f8729803785a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0d92e1dd9d656671141cba756a95f16"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#ab0d92e1dd9d656671141cba756a95f16">yawAngle</a> = 0</td></tr>
 <tr class="separator:ab0d92e1dd9d656671141cba756a95f16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b128536c6ff0addaa9175d4f009b613"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a3b128536c6ff0addaa9175d4f009b613">pitchAngle</a> = 0</td></tr>
@@ -276,10 +278,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a91fd59cbc6ea74a86272e3267cbbb18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93a7dfcbf61756197cd35b7798e08611"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDuration.html">Duration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a93a7dfcbf61756197cd35b7798e08611">currentActionLength</a> = 0_ticks</td></tr>
 <tr class="separator:a93a7dfcbf61756197cd35b7798e08611"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1f2f112bda57eaba654d3a453b6cd62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Vec_8h.html#adf6e1d7d066bb09da957cc89f2b3ceb2">Vec3i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#ad1f2f112bda57eaba654d3a453b6cd62">initialPosition</a></td></tr>
-<tr class="separator:ad1f2f112bda57eaba654d3a453b6cd62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d1dd70386e9309546bffefd148cce43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Vec_8h.html#adf6e1d7d066bb09da957cc89f2b3ceb2">Vec3i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a6d1dd70386e9309546bffefd148cce43">guardingPosition</a></td></tr>
-<tr class="separator:a6d1dd70386e9309546bffefd148cce43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33b987f13e125495dca3dea833d11689"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Vec_8h.html#a40b8356e33151c22cb4d1adaf2b762a8">Vec3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a33b987f13e125495dca3dea833d11689">initialPosition</a></td></tr>
+<tr class="separator:a33b987f13e125495dca3dea833d11689"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc65e0e144df1552dfa8b181964e1b88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="Vec_8h.html#a40b8356e33151c22cb4d1adaf2b762a8">Vec3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#abc65e0e144df1552dfa8b181964e1b88">guardingPosition</a></td></tr>
+<tr class="separator:abc65e0e144df1552dfa8b181964e1b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad605acad6becd36b626a880208c898c2"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#ad605acad6becd36b626a880208c898c2">tetherDistance</a> = 256</td></tr>
 <tr class="separator:ad605acad6becd36b626a880208c898c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3f4416433303234f1de44f20d87755f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ActorEnums_8h.html#a75a2677e7281dc615368b0814c395fed">AIState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#ae3f4416433303234f1de44f20d87755f">aiState</a> = <a class="el" href="ActorEnums_8h.html#a75a2677e7281dc615368b0814c395fedaa66b284e632fb96f19e27dca96b78fd7">Standing</a></td></tr>
@@ -296,8 +298,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:acea0ccd1bfe738809402bbd307297455"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54110025d368f9e1a90dde532714f5c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classIndexedArray.html">IndexedArray</a>&lt; <a class="el" href="structSpellBuff.html">SpellBuff</a>, <a class="el" href="ActorEnums_8h.html#a6d3e319b7229facfc7785eba60154bf9aff9e1d8a1a3b771f4514dcb7b5bc99c3">ACTOR_BUFF_FIRST</a>, <a class="el" href="ActorEnums_8h.html#a6d3e319b7229facfc7785eba60154bf9aa884bba3d9a82c3dcd5a9720cdcafe46">ACTOR_BUFF_LAST</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a54110025d368f9e1a90dde532714f5c0">buffs</a></td></tr>
 <tr class="separator:a54110025d368f9e1a90dde532714f5c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a64ad0653320d4e0d03fbcad280297d"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structItemGen.html">ItemGen</a>, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a6a64ad0653320d4e0d03fbcad280297d">items</a></td></tr>
-<tr class="separator:a6a64ad0653320d4e0d03fbcad280297d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4090d55bf716ab24afa78f117ec59002"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structItem.html">Item</a>, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a4090d55bf716ab24afa78f117ec59002">items</a></td></tr>
+<tr class="separator:a4090d55bf716ab24afa78f117ec59002"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3adc1ed7b6a5847355941c6f497f1437"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#a3adc1ed7b6a5847355941c6f497f1437">group</a> = 0</td></tr>
 <tr class="separator:a3adc1ed7b6a5847355941c6f497f1437"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abef5b138daca2ace964e7788a0174f44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MonsterEnums_8h.html#abd758b4216b3fc46a32b2f1a359b3492">MonsterType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classActor.html#abef5b138daca2ace964e7788a0174f44">ally</a> = <a class="el" href="MonsterEnums_8h.html#abd758b4216b3fc46a32b2f1a359b3492a6dd0a3e99962013c86e3cea3ab8c0dbb">MONSTER_TYPE_INVALID</a></td></tr>
@@ -522,8 +524,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a5709502698380ac4b322f9a204c92e3a" name="a5709502698380ac4b322f9a204c92e3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5709502698380ac4b322f9a204c92e3a">&#9670;&#160;</a></span>ActorDamageFromMonster()</h2>
+<a id="ade310f548d4a8093ce217c9e784309f2" name="ade310f548d4a8093ce217c9e784309f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade310f548d4a8093ce217c9e784309f2">&#9670;&#160;</a></span>ActorDamageFromMonster()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -546,7 +548,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="Vec_8h.html#adf6e1d7d066bb09da957cc89f2b3ceb2">Vec3i</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="Vec_8h.html#a40b8356e33151c22cb4d1adaf2b762a8">Vec3f</a> &amp;&#160;</td>
           <td class="paramname"><em>pVelocity</em>, </td>
         </tr>
         <tr>
@@ -766,8 +768,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a40832748bc74ddaa4a237813930b4a9c" name="a40832748bc74ddaa4a237813930b4a9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40832748bc74ddaa4a237813930b4a9c">&#9670;&#160;</a></span>AI_Bored()</h2>
+<a id="a3e1043c7a9cb32c469a822d062d1dccc" name="a3e1043c7a9cb32c469a822d062d1dccc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e1043c7a9cb32c469a822d062d1dccc">&#9670;&#160;</a></span>AI_Bored()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -790,7 +792,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct <a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
           <td class="paramname"><em>a4</em>&#160;</td>
         </tr>
         <tr>
@@ -808,8 +810,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aba3f8e539cba4c2895f4974ec7bbc552" name="aba3f8e539cba4c2895f4974ec7bbc552"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba3f8e539cba4c2895f4974ec7bbc552">&#9670;&#160;</a></span>AI_FaceObject()</h2>
+<a id="adf97bf0ca832347b58a3e8b7c16170d4" name="adf97bf0ca832347b58a3e8b7c16170d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf97bf0ca832347b58a3e8b7c16170d4">&#9670;&#160;</a></span>AI_FaceObject()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -832,7 +834,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct <a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
           <td class="paramname"><em>Dir_In</em>&#160;</td>
         </tr>
         <tr>
@@ -850,8 +852,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a341d5709cd2491afeecbad4b5369ad54" name="a341d5709cd2491afeecbad4b5369ad54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a341d5709cd2491afeecbad4b5369ad54">&#9670;&#160;</a></span>AI_Flee()</h2>
+<a id="ade6f88e2f231c9ffd275bd710e3d62d8" name="ade6f88e2f231c9ffd275bd710e3d62d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade6f88e2f231c9ffd275bd710e3d62d8">&#9670;&#160;</a></span>AI_Flee()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -880,7 +882,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct <a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
           <td class="paramname"><em>a4</em>&#160;</td>
         </tr>
         <tr>
@@ -898,8 +900,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aabfe5267433f5ac535ea0f587f5583ec" name="aabfe5267433f5ac535ea0f587f5583ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabfe5267433f5ac535ea0f587f5583ec">&#9670;&#160;</a></span>AI_MeleeAttack()</h2>
+<a id="adfbae95af585219d35c6b6925febc329" name="adfbae95af585219d35c6b6925febc329"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfbae95af585219d35c6b6925febc329">&#9670;&#160;</a></span>AI_MeleeAttack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -922,7 +924,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct <a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
           <td class="paramname"><em>arg0</em>&#160;</td>
         </tr>
         <tr>
@@ -940,8 +942,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac86a0687a6d57758c6f8cea275192dce" name="ac86a0687a6d57758c6f8cea275192dce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac86a0687a6d57758c6f8cea275192dce">&#9670;&#160;</a></span>AI_MissileAttack1()</h2>
+<a id="a19e310d765a0a7451f042e155bb735f0" name="a19e310d765a0a7451f042e155bb735f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19e310d765a0a7451f042e155bb735f0">&#9670;&#160;</a></span>AI_MissileAttack1()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -964,7 +966,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct <a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
           <td class="paramname"><em>pDir</em>&#160;</td>
         </tr>
         <tr>
@@ -982,8 +984,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a892835c91c3160a15309c5af2c9dcefb" name="a892835c91c3160a15309c5af2c9dcefb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a892835c91c3160a15309c5af2c9dcefb">&#9670;&#160;</a></span>AI_MissileAttack2()</h2>
+<a id="a204b6984465fc66e1d2367151c6ba167" name="a204b6984465fc66e1d2367151c6ba167"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a204b6984465fc66e1d2367151c6ba167">&#9670;&#160;</a></span>AI_MissileAttack2()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1006,7 +1008,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct <a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
           <td class="paramname"><em>pDir</em>&#160;</td>
         </tr>
         <tr>
@@ -1024,8 +1026,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a926a04ef0e649329d2670c57bd189a4e" name="a926a04ef0e649329d2670c57bd189a4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a926a04ef0e649329d2670c57bd189a4e">&#9670;&#160;</a></span>AI_Pursue1()</h2>
+<a id="ae0a422a41a0110dfd9a9c208a857be9a" name="ae0a422a41a0110dfd9a9c208a857be9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0a422a41a0110dfd9a9c208a857be9a">&#9670;&#160;</a></span>AI_Pursue1()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1060,7 +1062,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct <a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
           <td class="paramname"><em>pDir</em>&#160;</td>
         </tr>
         <tr>
@@ -1078,8 +1080,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a38efdbd37026ae6ed2f166a9f4f9f307" name="a38efdbd37026ae6ed2f166a9f4f9f307"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38efdbd37026ae6ed2f166a9f4f9f307">&#9670;&#160;</a></span>AI_Pursue2()</h2>
+<a id="a1ffb28804e07439ecf0a02ce8abacdcb" name="a1ffb28804e07439ecf0a02ce8abacdcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ffb28804e07439ecf0a02ce8abacdcb">&#9670;&#160;</a></span>AI_Pursue2()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1108,7 +1110,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct <a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
           <td class="paramname"><em>pDir</em>, </td>
         </tr>
         <tr>
@@ -1132,8 +1134,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a64e4c242335896c8c6f47baa8b1085f2" name="a64e4c242335896c8c6f47baa8b1085f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64e4c242335896c8c6f47baa8b1085f2">&#9670;&#160;</a></span>AI_Pursue3()</h2>
+<a id="a715a59466c4a63883a6a5043d81c6e0a" name="a715a59466c4a63883a6a5043d81c6e0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a715a59466c4a63883a6a5043d81c6e0a">&#9670;&#160;</a></span>AI_Pursue3()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1162,7 +1164,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct <a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
           <td class="paramname"><em>a4</em>&#160;</td>
         </tr>
         <tr>
@@ -1228,8 +1230,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7b32a105de5897b41f0ed14546f9a351" name="a7b32a105de5897b41f0ed14546f9a351"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b32a105de5897b41f0ed14546f9a351">&#9670;&#160;</a></span>AI_RangedAttack()</h2>
+<a id="a49a4c8b81f20072276bc801180948908" name="a49a4c8b81f20072276bc801180948908"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49a4c8b81f20072276bc801180948908">&#9670;&#160;</a></span>AI_RangedAttack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1246,7 +1248,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct <a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
           <td class="paramname"><em>a2</em>, </td>
         </tr>
         <tr>
@@ -1276,8 +1278,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aadd6182ef15f5a3b8a7b428164abdfbd" name="aadd6182ef15f5a3b8a7b428164abdfbd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadd6182ef15f5a3b8a7b428164abdfbd">&#9670;&#160;</a></span>AI_SpellAttack()</h2>
+<a id="a1f6337cd047523c5df2e1d71e5d894ba" name="a1f6337cd047523c5df2e1d71e5d894ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f6337cd047523c5df2e1d71e5d894ba">&#9670;&#160;</a></span>AI_SpellAttack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1294,7 +1296,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct <a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
           <td class="paramname"><em>pDir</em>, </td>
         </tr>
         <tr>
@@ -1330,8 +1332,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aac857b8337db0350ba9de58d7ca9429f" name="aac857b8337db0350ba9de58d7ca9429f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac857b8337db0350ba9de58d7ca9429f">&#9670;&#160;</a></span>AI_SpellAttack1()</h2>
+<a id="a14f9a982211e648e33fab1262ff109d1" name="a14f9a982211e648e33fab1262ff109d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14f9a982211e648e33fab1262ff109d1">&#9670;&#160;</a></span>AI_SpellAttack1()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1354,7 +1356,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct <a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
           <td class="paramname"><em>pDir</em>&#160;</td>
         </tr>
         <tr>
@@ -1372,8 +1374,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8756b4b11a9f17271fb44273c5b87812" name="a8756b4b11a9f17271fb44273c5b87812"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8756b4b11a9f17271fb44273c5b87812">&#9670;&#160;</a></span>AI_SpellAttack2()</h2>
+<a id="a1e95ca45f288046a7f7895eb2bacd690" name="a1e95ca45f288046a7f7895eb2bacd690"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e95ca45f288046a7f7895eb2bacd690">&#9670;&#160;</a></span>AI_SpellAttack2()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1396,7 +1398,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct <a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
           <td class="paramname"><em>pDir</em>&#160;</td>
         </tr>
         <tr>
@@ -1414,8 +1416,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a57c81fbe96cff651c5011c08a07f2a50" name="a57c81fbe96cff651c5011c08a07f2a50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57c81fbe96cff651c5011c08a07f2a50">&#9670;&#160;</a></span>AI_Stand()</h2>
+<a id="a97a500b1132839d4c5db4872f946fb65" name="a97a500b1132839d4c5db4872f946fb65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97a500b1132839d4c5db4872f946fb65">&#9670;&#160;</a></span>AI_Stand()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1444,7 +1446,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct <a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
           <td class="paramname"><em>a4</em>&#160;</td>
         </tr>
         <tr>
@@ -1462,8 +1464,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a79cc9d0589bc74c722ed9b75e3c7e421" name="a79cc9d0589bc74c722ed9b75e3c7e421"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79cc9d0589bc74c722ed9b75e3c7e421">&#9670;&#160;</a></span>AI_StandOrBored()</h2>
+<a id="a0d36eebbd2b8a9ed3df7d49bebe7b184" name="a0d36eebbd2b8a9ed3df7d49bebe7b184"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d36eebbd2b8a9ed3df7d49bebe7b184">&#9670;&#160;</a></span>AI_StandOrBored()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1492,7 +1494,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct <a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
           <td class="paramname"><em>a4</em>&#160;</td>
         </tr>
         <tr>
@@ -1578,8 +1580,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad2dca98c10fc7fd33b4ab5e4c96a93f7" name="ad2dca98c10fc7fd33b4ab5e4c96a93f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2dca98c10fc7fd33b4ab5e4c96a93f7">&#9670;&#160;</a></span>Arena_summon_actor()</h2>
+<a id="a9420cb371461754fbf823f20ee0809f0" name="a9420cb371461754fbf823f20ee0809f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9420cb371461754fbf823f20ee0809f0">&#9670;&#160;</a></span>Arena_summon_actor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1596,7 +1598,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="Vec_8h.html#adf6e1d7d066bb09da957cc89f2b3ceb2">Vec3i</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="Vec_8h.html#a40b8356e33151c22cb4d1adaf2b762a8">Vec3f</a>&#160;</td>
           <td class="paramname"><em>pos</em>&#160;</td>
         </tr>
         <tr>
@@ -1678,8 +1680,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a77ae756013f17fc041403c5a03e67e56" name="a77ae756013f17fc041403c5a03e67e56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77ae756013f17fc041403c5a03e67e56">&#9670;&#160;</a></span>CanAct()</h2>
+<a id="a683955d8696ef8716878f8f1368bd4ac" name="a683955d8696ef8716878f8f1368bd4ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a683955d8696ef8716878f8f1368bd4ac">&#9670;&#160;</a></span>CanAct()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1688,15 +1690,15 @@ Public Attributes</h2></td></tr>
           <td class="memname">bool Actor::CanAct </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a91d26f4a21f58aa752c31e6491f04c9d" name="a91d26f4a21f58aa752c31e6491f04c9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91d26f4a21f58aa752c31e6491f04c9d">&#9670;&#160;</a></span>DamageMonsterFromParty()</h2>
+<a id="a862a026ab9344b99235bcd399ee4b58b" name="a862a026ab9344b99235bcd399ee4b58b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a862a026ab9344b99235bcd399ee4b58b">&#9670;&#160;</a></span>DamageMonsterFromParty()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1705,7 +1707,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Actor::DamageMonsterFromParty </td>
+          <td class="memname">int Actor::DamageMonsterFromParty </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classPid.html">Pid</a>&#160;</td>
           <td class="paramname"><em>a1</em>, </td>
@@ -1719,7 +1721,7 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="Vec_8h.html#adf6e1d7d066bb09da957cc89f2b3ceb2">Vec3i</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="Vec_8h.html#a40b8356e33151c22cb4d1adaf2b762a8">Vec3f</a> &amp;&#160;</td>
           <td class="paramname"><em>pVelocity</em>&#160;</td>
         </tr>
         <tr>
@@ -1861,8 +1863,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4483f034bdc08bff333d86d69f55c50a" name="a4483f034bdc08bff333d86d69f55c50a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4483f034bdc08bff333d86d69f55c50a">&#9670;&#160;</a></span>GetDirectionInfo()</h2>
+<a id="ae7a7be5edaad5feffcd8048b33c1630d" name="ae7a7be5edaad5feffcd8048b33c1630d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7a7be5edaad5feffcd8048b33c1630d">&#9670;&#160;</a></span>GetDirectionInfo() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1885,14 +1887,14 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct <a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
           <td class="paramname"><em>pOut</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>a4</em>&#160;</td>
+          <td class="paramname"><em>PreferedZ</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1906,6 +1908,56 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="af439291de72cb394a5470f7537bef795" name="af439291de72cb394a5470f7537bef795"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af439291de72cb394a5470f7537bef795">&#9670;&#160;</a></span>GetDirectionInfo() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Actor::GetDirectionInfo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="Vec_8h.html#a40b8356e33151c22cb4d1adaf2b762a8">Vec3f</a>&#160;</td>
+          <td class="paramname"><em>p1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="Vec_8h.html#a40b8356e33151c22cb4d1adaf2b762a8">Vec3f</a>&#160;</td>
+          <td class="paramname"><em>p2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structAIDirection.html">AIDirection</a> *&#160;</td>
+          <td class="paramname"><em>pOut</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">p1</td><td>From Vec3f. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">p2</td><td>To Vec3f. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">pOut</td><td><a class="el" href="structAIDirection.html">AIDirection</a> from p1 to p2. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -2928,14 +2980,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6d1dd70386e9309546bffefd148cce43" name="a6d1dd70386e9309546bffefd148cce43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d1dd70386e9309546bffefd148cce43">&#9670;&#160;</a></span>guardingPosition</h2>
+<a id="abc65e0e144df1552dfa8b181964e1b88" name="abc65e0e144df1552dfa8b181964e1b88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc65e0e144df1552dfa8b181964e1b88">&#9670;&#160;</a></span>guardingPosition</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="Vec_8h.html#adf6e1d7d066bb09da957cc89f2b3ceb2">Vec3i</a> Actor::guardingPosition</td>
+          <td class="memname"><a class="el" href="Vec_8h.html#a40b8356e33151c22cb4d1adaf2b762a8">Vec3f</a> Actor::guardingPosition</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2970,28 +3022,28 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad1f2f112bda57eaba654d3a453b6cd62" name="ad1f2f112bda57eaba654d3a453b6cd62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1f2f112bda57eaba654d3a453b6cd62">&#9670;&#160;</a></span>initialPosition</h2>
+<a id="a33b987f13e125495dca3dea833d11689" name="a33b987f13e125495dca3dea833d11689"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33b987f13e125495dca3dea833d11689">&#9670;&#160;</a></span>initialPosition</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="Vec_8h.html#adf6e1d7d066bb09da957cc89f2b3ceb2">Vec3i</a> Actor::initialPosition</td>
+          <td class="memname"><a class="el" href="Vec_8h.html#a40b8356e33151c22cb4d1adaf2b762a8">Vec3f</a> Actor::initialPosition</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a6a64ad0653320d4e0d03fbcad280297d" name="a6a64ad0653320d4e0d03fbcad280297d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a64ad0653320d4e0d03fbcad280297d">&#9670;&#160;</a></span>items</h2>
+<a id="a4090d55bf716ab24afa78f117ec59002" name="a4090d55bf716ab24afa78f117ec59002"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4090d55bf716ab24afa78f117ec59002">&#9670;&#160;</a></span>items</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;<a class="el" href="structItemGen.html">ItemGen</a>, 4&gt; Actor::items</td>
+          <td class="memname">std::array&lt;<a class="el" href="structItem.html">Item</a>, 4&gt; Actor::items</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3096,14 +3148,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aceb578ea48745ebac2f2317bce791b4a" name="aceb578ea48745ebac2f2317bce791b4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aceb578ea48745ebac2f2317bce791b4a">&#9670;&#160;</a></span>pos</h2>
+<a id="afa1455dbf1a4698584ed8c501439692f" name="afa1455dbf1a4698584ed8c501439692f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa1455dbf1a4698584ed8c501439692f">&#9670;&#160;</a></span>pos</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="Vec_8h.html#adf6e1d7d066bb09da957cc89f2b3ceb2">Vec3i</a> Actor::pos</td>
+          <td class="memname"><a class="el" href="Vec_8h.html#a40b8356e33151c22cb4d1adaf2b762a8">Vec3f</a> Actor::pos</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3166,20 +3218,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a66d4558bc52848e5bda1fa3911f84048" name="a66d4558bc52848e5bda1fa3911f84048"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66d4558bc52848e5bda1fa3911f84048">&#9670;&#160;</a></span>speed</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="Vec_8h.html#adf6e1d7d066bb09da957cc89f2b3ceb2">Vec3i</a> Actor::speed</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="abdfff323b55c9c012e9cc2d833121c6e" name="abdfff323b55c9c012e9cc2d833121c6e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abdfff323b55c9c012e9cc2d833121c6e">&#9670;&#160;</a></span>spriteIds</h2>
 
@@ -3230,6 +3268,20 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">int Actor::uniqueNameIndex = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb823b9528b91c1bc292f8729803785a" name="abb823b9528b91c1bc292f8729803785a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb823b9528b91c1bc292f8729803785a">&#9670;&#160;</a></span>velocity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="Vec_8h.html#a40b8356e33151c22cb4d1adaf2b762a8">Vec3f</a> Actor::velocity</td>
         </tr>
       </table>
 </div><div class="memdoc">

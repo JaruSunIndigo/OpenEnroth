@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">OpenEnroth<span id="projectnumber">&#160;a5712df</span>
+   <div id="projectname">OpenEnroth<span id="projectnumber">&#160;49445b5</span>
    </div>
   </td>
  </tr>
@@ -80,7 +80,9 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="LOD_8h.html">LOD.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="DataPath_8h.html">Utility/DataPath.h</a>&quot;</code><br />
+<code>#include &lt;memory&gt;</code><br />
+<code>#include &quot;<a class="el" href="Engine_8h.html">Engine.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="EngineFileSystem_8h.html">EngineFileSystem.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -124,6 +126,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >LOD reader for data/games.lod. </p>
 
 </div>
 </div>
@@ -138,6 +141,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >LOD reader for the current game being played. Used for accessing the per-map states, is updated on map change, on save, and on load. </p>
 
 </div>
 </div>

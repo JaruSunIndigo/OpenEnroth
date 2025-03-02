@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">OpenEnroth<span id="projectnumber">&#160;a5712df</span>
+   <div id="projectname">OpenEnroth<span id="projectnumber">&#160;49445b5</span>
    </div>
   </td>
  </tr>
@@ -86,10 +86,20 @@ Inheritance diagram for PlatformEventFilter:</div>
   <img src="classPlatformEventFilter.png" usemap="#PlatformEventFilter_map" alt=""/>
   <map id="PlatformEventFilter_map" name="PlatformEventFilter_map">
 <area href="classEngineTraceSimpleRecorder.html" alt="EngineTraceSimpleRecorder" shape="rect" coords="0,56,174,80"/>
-<area href="classGameKeyboardController.html" alt="GameKeyboardController" shape="rect" coords="184,56,358,80"/>
-<area href="classGameTraceHandler.html" alt="GameTraceHandler" shape="rect" coords="368,56,542,80"/>
-<area href="classGameWindowHandler.html" alt="GameWindowHandler" shape="rect" coords="552,56,726,80"/>
-<area href="classNuklearEventHandler.html" alt="NuklearEventHandler" shape="rect" coords="736,56,910,80"/>
+<area href="classFsmEventHandler.html" alt="FsmEventHandler" shape="rect" coords="276,56,450,80"/>
+<area href="classGameKeyboardController.html" alt="GameKeyboardController" shape="rect" coords="460,56,634,80"/>
+<area href="classGameTraceHandler.html" alt="GameTraceHandler" shape="rect" coords="644,56,818,80"/>
+<area href="classGameWindowHandler.html" alt="GameWindowHandler" shape="rect" coords="828,56,1002,80"/>
+<area href="classInputScriptEventHandler.html" alt="InputScriptEventHandler" shape="rect" coords="1012,56,1186,80"/>
+<area href="classOverlayEventHandler.html" alt="OverlayEventHandler" shape="rect" coords="1196,56,1370,80"/>
+<area href="classFsm.html" alt="Fsm" shape="rect" coords="92,112,266,136"/>
+<area href="classFsmState.html" title="Implement this abstract class to create a new State that can be added to an Fsm. FsmState derives fro..." alt="FsmState" shape="rect" coords="460,112,634,136"/>
+<area href="classCreditsState.html" alt="CreditsState" shape="rect" coords="0,168,174,192"/>
+<area href="classLoadStep2State.html" alt="LoadStep2State" shape="rect" coords="184,168,358,192"/>
+<area href="classMainMenuState.html" alt="MainMenuState" shape="rect" coords="368,168,542,192"/>
+<area href="classMockFsmState.html" alt="MockFsmState" shape="rect" coords="552,168,726,192"/>
+<area href="classStartState.html" alt="StartState" shape="rect" coords="736,168,910,192"/>
+<area href="classVideoState.html" alt="VideoState" shape="rect" coords="920,168,1094,192"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -136,6 +146,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a582bc6c932d6854290a45cdf64413829"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc0e9729abd8e04280a54ec3324a7e6c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlatformEventFilter.html#abc0e9729abd8e04280a54ec3324a7e6c">nativeEvent</a> (const <a class="el" href="classPlatformNativeEvent.html">PlatformNativeEvent</a> *<a class="el" href="classPlatformEventFilter.html#a20f3364e0560c2df3e3199e61673bcc8">event</a>)</td></tr>
 <tr class="separator:abc0e9729abd8e04280a54ec3324a7e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad0bf5cf3bacbda09994f5731207648a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlatformEventFilter.html#aad0bf5cf3bacbda09994f5731207648a">textInputEvent</a> (const <a class="el" href="classPlatformTextInputEvent.html">PlatformTextInputEvent</a> *<a class="el" href="classPlatformEventFilter.html#a20f3364e0560c2df3e3199e61673bcc8">event</a>)</td></tr>
+<tr class="separator:aad0bf5cf3bacbda09994f5731207648a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -276,7 +288,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classEngineTraceSimpleRecorder.html#ae6bb9e96ca86286fe9bed494db342041">EngineTraceSimpleRecorder</a>.</p>
+<p>Reimplemented in <a class="el" href="classEngineTraceSimpleRecorder.html#ae6bb9e96ca86286fe9bed494db342041">EngineTraceSimpleRecorder</a>, and <a class="el" href="classFsm.html#a9a2870d8f79b959005648f7bfa41cdd2">Fsm</a>.</p>
 
 </div>
 </div>
@@ -441,7 +453,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classGameKeyboardController.html#a35455a18bd25d2ff5176da72c9add79f">GameKeyboardController</a>, <a class="el" href="classGameTraceHandler.html#ada5c2ff7851a93fcaf4ee25975a94540">GameTraceHandler</a>, <a class="el" href="classGameWindowHandler.html#a74a6b9a691b30884df03b125c09154e8">GameWindowHandler</a>, and <a class="el" href="classNuklearEventHandler.html#a8f07bfe57ee36afdf8aff6cb14433b80">NuklearEventHandler</a>.</p>
+<p>Reimplemented in <a class="el" href="classGameKeyboardController.html#a35455a18bd25d2ff5176da72c9add79f">GameKeyboardController</a>, <a class="el" href="classVideoState.html#acf7f68ded9b95c5827625dd81a4dedb8">VideoState</a>, <a class="el" href="classGameTraceHandler.html#ada5c2ff7851a93fcaf4ee25975a94540">GameTraceHandler</a>, <a class="el" href="classGameWindowHandler.html#a74a6b9a691b30884df03b125c09154e8">GameWindowHandler</a>, <a class="el" href="classOverlayEventHandler.html#a624e9a236b8203a55e23c730fe3d2b3d">OverlayEventHandler</a>, and <a class="el" href="classInputScriptEventHandler.html#a7b15ce6367d884716f3127ab744d2c76">InputScriptEventHandler</a>.</p>
 
 </div>
 </div>
@@ -469,7 +481,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classGameKeyboardController.html#a0716e5db3bd923f291f4a94d7203b0ea">GameKeyboardController</a>, <a class="el" href="classGameTraceHandler.html#a14ca7609c3cf38430cbae53ba34e782e">GameTraceHandler</a>, <a class="el" href="classGameWindowHandler.html#aea9e3bfa329b538c22de7c4eccb3efa9">GameWindowHandler</a>, and <a class="el" href="classNuklearEventHandler.html#a9eb3a029e21ae3b3025f6400cdcb1151">NuklearEventHandler</a>.</p>
+<p>Reimplemented in <a class="el" href="classGameKeyboardController.html#a0716e5db3bd923f291f4a94d7203b0ea">GameKeyboardController</a>, <a class="el" href="classGameTraceHandler.html#a14ca7609c3cf38430cbae53ba34e782e">GameTraceHandler</a>, <a class="el" href="classGameWindowHandler.html#aea9e3bfa329b538c22de7c4eccb3efa9">GameWindowHandler</a>, and <a class="el" href="classOverlayEventHandler.html#af4a90ffa51e80aa35d8d5a6663bf09a8">OverlayEventHandler</a>.</p>
 
 </div>
 </div>
@@ -497,7 +509,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classGameWindowHandler.html#a63c3a9fbea860f10bde709712c29f6b4">GameWindowHandler</a>, and <a class="el" href="classNuklearEventHandler.html#a548d50dc87090990323c96680c67f50d">NuklearEventHandler</a>.</p>
+<p>Reimplemented in <a class="el" href="classGameWindowHandler.html#a63c3a9fbea860f10bde709712c29f6b4">GameWindowHandler</a>.</p>
 
 </div>
 </div>
@@ -525,7 +537,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classGameWindowHandler.html#ac75f8608e9c6b7b6cc882891e80eb4e2">GameWindowHandler</a>, and <a class="el" href="classNuklearEventHandler.html#a6a293dca36c350ec68c5988f996df024">NuklearEventHandler</a>.</p>
+<p>Reimplemented in <a class="el" href="classVideoState.html#a0d99f7e62bc26363e18855290baa7943">VideoState</a>, <a class="el" href="classGameWindowHandler.html#ac75f8608e9c6b7b6cc882891e80eb4e2">GameWindowHandler</a>, and <a class="el" href="classOverlayEventHandler.html#a7e759cf22b78e57f388785d2594276b3">OverlayEventHandler</a>.</p>
 
 </div>
 </div>
@@ -553,7 +565,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classGameWindowHandler.html#a42c620e39495b328003e379b84525b01">GameWindowHandler</a>, and <a class="el" href="classNuklearEventHandler.html#ab0f095cc0c4410ea25e7cf6070a6b5a4">NuklearEventHandler</a>.</p>
+<p>Reimplemented in <a class="el" href="classGameWindowHandler.html#a42c620e39495b328003e379b84525b01">GameWindowHandler</a>, and <a class="el" href="classOverlayEventHandler.html#a61506c5b629fd61eac9f3a77acd154ea">OverlayEventHandler</a>.</p>
 
 </div>
 </div>
@@ -609,6 +621,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Reimplemented in <a class="el" href="classOverlayEventHandler.html#a09f5ea2f6d5970877056c35d01dcfef1">OverlayEventHandler</a>.</p>
+
 </div>
 </div>
 <a id="a6054277312eef4fa0b47da2c73152eab" name="a6054277312eef4fa0b47da2c73152eab"></a>
@@ -639,6 +653,32 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aad0bf5cf3bacbda09994f5731207648a" name="aad0bf5cf3bacbda09994f5731207648a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad0bf5cf3bacbda09994f5731207648a">&#9670;&#160;</a></span>textInputEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PlatformEventFilter::textInputEvent </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPlatformTextInputEvent.html">PlatformTextInputEvent</a> *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6d2ceb2951b04d99b1b100eb1ddb926e" name="a6d2ceb2951b04d99b1b100eb1ddb926e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6d2ceb2951b04d99b1b100eb1ddb926e">&#9670;&#160;</a></span>wheelEvent()</h2>
 
@@ -663,7 +703,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classGameWindowHandler.html#a5f80b8a600f2253aebfe25f9a6d5b5d6">GameWindowHandler</a>, and <a class="el" href="classNuklearEventHandler.html#a256c5ccadffa2df441eeeaef3558a52a">NuklearEventHandler</a>.</p>
+<p>Reimplemented in <a class="el" href="classGameWindowHandler.html#a5f80b8a600f2253aebfe25f9a6d5b5d6">GameWindowHandler</a>, and <a class="el" href="classOverlayEventHandler.html#aba3d01d39de8f413c7908de117db5b9e">OverlayEventHandler</a>.</p>
 
 </div>
 </div>
